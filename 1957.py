@@ -1,0 +1,5 @@
+num = int(input())
+conv = hex(num)
+conv = str(conv)
+conv.upper()
+print(conv.upper()[2:])
